@@ -64,6 +64,6 @@ services:
 
 volumes:
     sentry-data:
-      external: true
+      driver: local 
     sentry-postgres:
       external: true
